@@ -1,166 +1,174 @@
 * {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-	color: cornsilk;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: cornsilk;
 }
 
 body {
-	font-family: 'Raleway', 'HelveticaNeue', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Raleway', 'HelveticaNeue', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 /* ============================================================ */
 /* Footer */
 footer {
-	color: white;
-	padding: 0px 25px;
+  color: white;
+  padding: 0px 25px;
 }
 
 #footerRight {
-	font-size: 1.5rem;
+  font-size: 1.5rem;
 }
 
 #footerRight i {
-	padding-left: 25px;
+  padding-left: 25px;
 }
 
 #footerRight a {
-	text-decoration: none;
-	color: white;
-	transition: 1.5s ease-in-out;
+  text-decoration: none;
+  color: white;
+  transition: 1.5s ease-in-out;
 }
 
 #footerRight a i:hover {
-	transform: scale(1.05);
-	color: rgb(216, 212, 212);
+  transform: scale(1.05);
+  color: rgb(216, 212, 212);
 }
 /* ============================================================ */
 
 /* ============================================================ */
 /* Main Body */
 main {
-	min-height: calc(100vh - 114px);
+  min-height: calc(100vh - 114px);
 }
 
 #mainHome {
-	background-image: url('../images/hicking2.jpg');
-	background-color: #cccccc;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
+  background-image: url('../images/hicking2.jpg');
+  background-color: #cccccc;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #mainAbout {
-	background-image: url('../images/hicking3.jpg');
-	background-color: #cccccc;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
+  background-image: url('../images/hicking3.jpg');
+  background-color: #cccccc;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #mainCurrent {
-	background-image: url('../images/hicking1.jpg');
-	background-color: #cccccc;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
+  background-image: url('../images/hicking1.jpg');
+  background-color: #cccccc;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #mainHistory {
-	background-image: url('../images/hicking5.jpg');
-	background-color: #cccccc;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
+  background-image: url('../images/hicking5.jpg');
+  background-color: #cccccc;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #mainContact {
-	background-image: url('../images/hicking4.jpg');
-	background-color: #cccccc;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
+  background-image: url('../images/hicking4.jpg');
+  background-color: #cccccc;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .mainHidden {
-	display: none;
+  display: none;
 }
 
 .mainShow {
-	display: block;
+  display: block;
 }
 /* ============================================================ */
 
 /* ============================================================ */
 /* Home Page */
 #mainHomeDiv {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	min-height: calc(100vh - 114px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: calc(100vh - 114px);
 }
 
 /* -------- Statements -------- */
 #mainHomeDiv #statement0,
 #mainHomeDiv #statement1,
-#mainHomeDiv #statement2 {
-	font-family: 'Zen Antique', serif;
-	padding: 10px;
-	margin: 50px 25px;
-	min-width: 60vw;
-	max-width: 60vw;
+#mainHomeDiv #statement2,
+#mainHomeDiv #statement3 {
+  font-family: 'Zen Antique', serif;
+  padding: 10px;
+  margin: 50px 25px;
+  min-width: 60vw;
+  max-width: 60vw;
 
-	border: 2px solid lightgray;
-	border-radius: 25px;
-	box-shadow: 5px 5px 10px 1px black;
+  border: 2px solid lightgray;
+  border-radius: 25px;
+  box-shadow: 5px 5px 10px 1px black;
 
-	background-color: black;
+  background-color: black;
 
-	cursor: pointer;
-	transition: 0.25s ease-in-out;
+  cursor: pointer;
+  transition: 0.25s ease-in-out;
 }
 
 #mainHomeDiv #statement0:hover,
 #mainHomeDiv #statement1:hover,
-#mainHomeDiv #statement2:hover {
-	transform: scale(1.02);
+#mainHomeDiv #statement2:hover,
+#mainHomeDiv #statement3:hover {
+  transform: scale(1.02);
 }
 
 #mainHomeDiv #statement0 p,
 #mainHomeDiv #statement1 p,
-#mainHomeDiv #statement2 p {
-	font-size: 2vw;
+#mainHomeDiv #statement2 p,
+#mainHomeDiv #statement3 p {
+  font-size: 2vw;
 }
 
 .mainEmphText,
 .mainEmphText0,
 .mainEmphText2 {
-	font-size: 4vw;
-	color: goldenrod;
-	font-weight: bold;
+  font-size: 4vw;
+  color: goldenrod;
+  font-weight: bold;
 }
 
 .mainEmphText0 {
-	color: #198c19;
+  color: #198c19;
 }
 .mainEmphText2 {
-	color: chocolate;
+  color: chocolate;
 }
 
 .mainMessageText,
 .mainMessageText {
-	color: hotpink;
-	font-weight: bold;
+  color: hotpink;
+  font-weight: bold;
 }
 
 #groupIcon {
-	text-align: center;
+  text-align: center;
 }
 
 #mainHomeDiv #statement0 i {
-	font-size: 8rem;
-	color: hotpink;
+  font-size: 8rem;
+  color: hotpink;
+}
+
+#mainHomeDiv #statement3 i {
+  font-size: 8rem;
+  color: white;
 }
 /* ----------------------------- */
 /* ============================================================ */
@@ -168,216 +176,220 @@ main {
 /* ============================================================ */
 /* About Page */
 #mainAboutDiv {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	padding: 2rem 10rem;
-	min-height: calc(100vh - 114px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem 10rem;
+  min-height: calc(100vh - 114px);
 }
 
 #mainAboutDiv iframe {
-	margin-top: 2rem;
+  margin-top: 2rem;
 }
 
 #mainAboutDiv h2 {
-	font-size: 3rem;
+  font-size: 3rem;
 }
 
 #mainAboutDiv p {
-	font-size: 1.25rem;
+  font-size: 1.25rem;
 }
 /* ============================================================ */
 
 /* ============================================================ */
 /* Current Page */
 #mainCurrentDiv {
-	display: flex;
-	flex-direction: column;
-	/* justify-content: center; */
-	align-items: center;
-	padding: 2rem 10rem;
-	min-height: calc(100vh - 114px);
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  padding: 2rem 10rem;
+  min-height: calc(100vh - 114px);
 }
 
 #mainCurrentDiv #current1 {
-	padding: 10px 20px;
-	margin: 50px 25px;
-	min-width: 50vw;
+  padding: 10px 20px;
+  margin: 50px 25px;
+  min-width: 50vw;
 
-	border: 2px solid lightgray;
-	border-radius: 25px;
-	box-shadow: 5px 5px 10px 1px black;
+  border: 2px solid lightgray;
+  border-radius: 25px;
+  box-shadow: 5px 5px 10px 1px black;
 
-	background-color: black;
+  background-color: black;
 }
 
 #mainCurrentDiv #current1 h2 {
-	color: hotpink;
-	font-size: 3rem;
+  color: hotpink;
+  font-size: 3rem;
 }
 
 #mainCurrentDiv #current1 p {
-	font-size: 1.25rem;
+  font-size: 1.25rem;
 }
 /* ============================================================ */
 
 /* ============================================================ */
 /* History Page */
 #mainHistoryDiv {
-	display: flex;
-	flex-direction: column;
-	/* justify-content: center; */
-	align-items: center;
-	padding: 2rem 10rem;
-	min-height: calc(100vh - 114px);
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  padding: 2rem 10rem;
+  min-height: calc(100vh - 114px);
 }
 
 #mainHistoryDiv #history1,
 #mainHistoryDiv #history2 {
-	padding: 10px 20px;
-	margin: 50px 25px;
-	min-width: 50vw;
+  padding: 10px 20px;
+  margin: 50px 25px;
+  min-width: 50vw;
 
-	border: 2px solid lightgray;
-	border-radius: 25px;
-	box-shadow: 5px 5px 10px 1px black;
+  border: 2px solid lightgray;
+  border-radius: 25px;
+  box-shadow: 5px 5px 10px 1px black;
 
-	background-color: black;
+  background-color: black;
 }
 
 #mainHistoryDiv #history1 h2,
 #mainHistoryDiv #history2 h2 {
-	color: hotpink;
-	font-size: 3rem;
-	margin-top: 30px;
+  color: hotpink;
+  font-size: 3rem;
+  margin-top: 30px;
 }
 
 #mainHistoryDiv #history1 p,
 #mainHistoryDiv #history2 p {
-	font-size: 1.25rem;
+  font-size: 1.25rem;
 }
 /* ============================================================ */
 
 /* ============================================================ */
 /* Contact Page */
 #mainContactDiv {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	min-height: calc(100vh - 114px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: calc(100vh - 114px);
 }
 
 #mainContactDiv #contact1 {
-	padding: 10px 20px;
-	margin: 50px 25px;
-	min-width: 50vw;
+  padding: 10px 20px;
+  margin: 50px 25px;
+  min-width: 50vw;
 
-	border: 2px solid lightgray;
-	border-radius: 25px;
-	box-shadow: 5px 5px 10px 1px black;
+  border: 2px solid lightgray;
+  border-radius: 25px;
+  box-shadow: 5px 5px 10px 1px black;
 
-	background-color: rgba(0, 0, 0, 0.555);
+  background-color: rgba(0, 0, 0, 0.555);
 }
 
 #mainContactDiv #contact1 p {
-	font-size: 3vw;
-	padding: 25px;
+  font-size: 3vw;
+  padding: 25px;
 }
 /* ============================================================ */
 
 /* ------------------------------------------------------------------------------------------------------------------------------------------- */
 /* Media Queries */
 @media only screen and (max-width: 1000px) {
-	/* ============================================================ */
-	/* Home Page */
-	#mainHomeDiv #statement1 p {
-		font-size: 2rem;
-	}
+  /* ============================================================ */
+  /* Home Page */
+  #mainHomeDiv #statement1 p {
+    font-size: 2rem;
+  }
 
-	.mainEmphText {
-		font-size: 3rem;
-	}
+  .mainEmphText {
+    font-size: 3rem;
+  }
 
-	#mainHomeDiv #statement0,
-	#mainHomeDiv #statement1,
-	#mainHomeDiv #statement2 {
-		min-width: 75vw;
-	}
+  #mainHomeDiv #statement0,
+  #mainHomeDiv #statement1,
+  #mainHomeDiv #statement2,
+  #mainHomeDiv #statement3 {
+    min-width: 75vw;
+  }
 
-	#mainHomeDiv #statement0 p,
-	#mainHomeDiv #statement2 p {
-		font-size: 2rem;
-	}
+  #mainHomeDiv #statement0 p,
+  #mainHomeDiv #statement2 p,
+  #mainHomeDiv #statement3 p {
+    font-size: 2rem;
+  }
 
-	.mainEmphText0,
-	.mainEmphText2 {
-		font-size: 3rem;
-	}
-	/* ============================================================ */
+  .mainEmphText0,
+  .mainEmphText2 {
+    font-size: 3rem;
+  }
+  /* ============================================================ */
 
-	/* ============================================================ */
-	/* Contact Page */
-	#mainContactDiv #contact1 p {
-		font-size: 2rem;
-	}
-	/* ============================================================ */
+  /* ============================================================ */
+  /* Contact Page */
+  #mainContactDiv #contact1 p {
+    font-size: 2rem;
+  }
+  /* ============================================================ */
 }
 /* ------------------------------------------------------------------------------------------------------------------------------------------- */
 
 /* ------------------------------------------------------------------------------------------------------------------------------------------- */
 /* Media Queries */
 @media only screen and (max-width: 500px) {
-	/* ============================================================ */
-	/* Home Page */
-	#mainHomeDiv #statement0 p,
-	#mainHomeDiv #statement1 p,
-	#mainHomeDiv #statement2 p {
-		font-size: 1.5rem;
-	}
+  /* ============================================================ */
+  /* Home Page */
+  #mainHomeDiv #statement0 p,
+  #mainHomeDiv #statement1 p,
+  #mainHomeDiv #statement2 p,
+  #mainHomeDiv #statement3 p {
+    font-size: 1.5rem;
+  }
 
-	.mainEmphText,
-	.mainEmphText0,
-	.mainEmphText2 {
-		font-size: 2.25rem;
-	}
+  .mainEmphText,
+  .mainEmphText0,
+  .mainEmphText2 {
+    font-size: 2.25rem;
+  }
 
-	#mainHomeDiv #statement0 i {
-		font-size: 5rem;
-	}
-	/* ============================================================ */
+  #mainHomeDiv #statement0 i,
+  #mainHomeDiv #statement3 i {
+    font-size: 5rem;
+  }
+  /* ============================================================ */
 
-	/* ============================================================ */
-	/* About Page */
-	#mainAboutDiv {
-		padding: 2rem 2rem;
-	}
-	/* ============================================================ */
+  /* ============================================================ */
+  /* About Page */
+  #mainAboutDiv {
+    padding: 2rem 2rem;
+  }
+  /* ============================================================ */
 
-	/* ============================================================ */
-	/* Current Page */
-	#mainCurrentDiv {
-		padding: 2rem 2rem;
-	}
-	/* ============================================================ */
+  /* ============================================================ */
+  /* Current Page */
+  #mainCurrentDiv {
+    padding: 2rem 2rem;
+  }
+  /* ============================================================ */
 
-	/* ============================================================ */
-	/* History Page */
-	#mainHistoryDiv {
-		padding: 2rem 2rem;
-	}
-	/* ============================================================ */
+  /* ============================================================ */
+  /* History Page */
+  #mainHistoryDiv {
+    padding: 2rem 2rem;
+  }
+  /* ============================================================ */
 
-	/* ============================================================ */
-	/* Contact Page */
-	#mainContactDiv #contact1 {
-		padding: 5px 5px;
-		margin: 10px 10px;
-	}
-	#mainContactDiv #contact1 a,
-	#mainContactDiv #contact1 i {
-		font-size: 1rem;
-	}
-	/* ============================================================ */
+  /* ============================================================ */
+  /* Contact Page */
+  #mainContactDiv #contact1 {
+    padding: 5px 5px;
+    margin: 10px 10px;
+  }
+  #mainContactDiv #contact1 a,
+  #mainContactDiv #contact1 i {
+    font-size: 1rem;
+  }
+  /* ============================================================ */
 }
 /* ------------------------------------------------------------------------------------------------------------------------------------------- */
