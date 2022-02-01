@@ -152,9 +152,10 @@ main {
 }
 
 .mainMessageText,
-.mainMessageText {
+.mainMessageAGM a {
   color: hotpink;
   font-weight: bold;
+  text-decoration: none;
 }
 
 #groupIcon {
