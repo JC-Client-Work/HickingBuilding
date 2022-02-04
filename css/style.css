@@ -6,7 +6,8 @@
 }
 
 body {
-  font-family: 'Raleway', 'HelveticaNeue', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
 }
 
 /* ============================================================ */
@@ -43,7 +44,7 @@ main {
 }
 
 #mainHome {
-  background-image: url('../images/hicking2.jpg');
+  background-image: url("../images/hicking2.jpg");
   background-color: #cccccc;
   background-position: center;
   background-repeat: no-repeat;
@@ -51,7 +52,7 @@ main {
 }
 
 #mainAbout {
-  background-image: url('../images/hicking3.jpg');
+  background-image: url("../images/hicking3.jpg");
   background-color: #cccccc;
   background-position: center;
   background-repeat: no-repeat;
@@ -59,7 +60,7 @@ main {
 }
 
 #mainCurrent {
-  background-image: url('../images/hicking1.jpg');
+  background-image: url("../images/hicking1.jpg");
   background-color: #cccccc;
   background-position: center;
   background-repeat: no-repeat;
@@ -67,7 +68,7 @@ main {
 }
 
 #mainHistory {
-  background-image: url('../images/hicking5.jpg');
+  background-image: url("../images/hicking5.jpg");
   background-color: #cccccc;
   background-position: center;
   background-repeat: no-repeat;
@@ -75,7 +76,7 @@ main {
 }
 
 #mainContact {
-  background-image: url('../images/hicking4.jpg');
+  background-image: url("../images/hicking4.jpg");
   background-color: #cccccc;
   background-position: center;
   background-repeat: no-repeat;
@@ -105,8 +106,9 @@ main {
 #mainHomeDiv #statement0,
 #mainHomeDiv #statement1,
 #mainHomeDiv #statement2,
-#mainHomeDiv #statement3 {
-  font-family: 'Zen Antique', serif;
+#mainHomeDiv #statement3,
+#mainHomeDiv #statement4 {
+  font-family: "Zen Antique", serif;
   padding: 10px;
   margin: 50px 25px;
   min-width: 60vw;
@@ -125,14 +127,16 @@ main {
 #mainHomeDiv #statement0:hover,
 #mainHomeDiv #statement1:hover,
 #mainHomeDiv #statement2:hover,
-#mainHomeDiv #statement3:hover {
+#mainHomeDiv #statement3:hover,
+#mainHomeDiv #statement4:hover {
   transform: scale(1.02);
 }
 
 #mainHomeDiv #statement0 p,
 #mainHomeDiv #statement1 p,
 #mainHomeDiv #statement2 p,
-#mainHomeDiv #statement3 p {
+#mainHomeDiv #statement3 p,
+#mainHomeDiv #statement4 p {
   font-size: 2vw;
 }
 
@@ -162,7 +166,8 @@ main {
   text-align: center;
 }
 
-#mainHomeDiv #statement0 i {
+#mainHomeDiv #statement0 i,
+#mainHomeDiv #statement4 i {
   font-size: 8rem;
   color: hotpink;
 }
@@ -311,13 +316,15 @@ main {
   #mainHomeDiv #statement0,
   #mainHomeDiv #statement1,
   #mainHomeDiv #statement2,
-  #mainHomeDiv #statement3 {
+  #mainHomeDiv #statement3,
+  #mainHomeDiv #statement4 {
     min-width: 75vw;
   }
 
   #mainHomeDiv #statement0 p,
   #mainHomeDiv #statement2 p,
-  #mainHomeDiv #statement3 p {
+  #mainHomeDiv #statement3 p,
+  #mainHomeDiv #statement4 p {
     font-size: 2rem;
   }
 
@@ -344,7 +351,8 @@ main {
   #mainHomeDiv #statement0 p,
   #mainHomeDiv #statement1 p,
   #mainHomeDiv #statement2 p,
-  #mainHomeDiv #statement3 p {
+  #mainHomeDiv #statement3 p,
+  #mainHomeDiv #statement4 p {
     font-size: 1.5rem;
   }
 
@@ -355,7 +363,8 @@ main {
   }
 
   #mainHomeDiv #statement0 i,
-  #mainHomeDiv #statement3 i {
+  #mainHomeDiv #statement3 i,
+  #mainHomeDiv #statement4 i {
     font-size: 5rem;
   }
   /* ============================================================ */
