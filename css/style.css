@@ -6,8 +6,7 @@
 }
 
 body {
-  font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial,
-    sans-serif;
+  font-family: 'Raleway', 'HelveticaNeue', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 /* ============================================================ */
@@ -44,7 +43,7 @@ main {
 }
 
 #mainHome {
-  background-image: url("../images/hicking2.jpg");
+  background-image: url('../images/hicking2.jpg');
   background-color: #cccccc;
   background-position: center;
   background-repeat: no-repeat;
@@ -52,7 +51,7 @@ main {
 }
 
 #mainAbout {
-  background-image: url("../images/hicking3.jpg");
+  background-image: url('../images/hicking3.jpg');
   background-color: #cccccc;
   background-position: center;
   background-repeat: no-repeat;
@@ -60,7 +59,7 @@ main {
 }
 
 #mainCurrent {
-  background-image: url("../images/hicking1.jpg");
+  background-image: url('../images/hicking1.jpg');
   background-color: #cccccc;
   background-position: center;
   background-repeat: no-repeat;
@@ -68,7 +67,7 @@ main {
 }
 
 #mainHistory {
-  background-image: url("../images/hicking5.jpg");
+  background-image: url('../images/hicking5.jpg');
   background-color: #cccccc;
   background-position: center;
   background-repeat: no-repeat;
@@ -76,7 +75,7 @@ main {
 }
 
 #mainContact {
-  background-image: url("../images/hicking4.jpg");
+  background-image: url('../images/hicking4.jpg');
   background-color: #cccccc;
   background-position: center;
   background-repeat: no-repeat;
@@ -103,12 +102,12 @@ main {
 }
 
 /* -------- Statements -------- */
-#mainHomeDiv #statement0,
-#mainHomeDiv #statement1,
-#mainHomeDiv #statement2,
-#mainHomeDiv #statement3,
-#mainHomeDiv #statement4 {
-  font-family: "Zen Antique", serif;
+#statement0,
+#statement1,
+#statement2,
+#statement3,
+#statement4 {
+  font-family: 'Zen Antique', serif;
   padding: 10px;
   margin: 50px 25px;
   min-width: 60vw;
@@ -124,19 +123,19 @@ main {
   transition: 0.25s ease-in-out;
 }
 
-#mainHomeDiv #statement0:hover,
-#mainHomeDiv #statement1:hover,
-#mainHomeDiv #statement2:hover,
-#mainHomeDiv #statement3:hover,
-#mainHomeDiv #statement4:hover {
+#statement0:hover,
+#statement1:hover,
+#statement2:hover,
+#statement3:hover,
+#statement4:hover {
   transform: scale(1.02);
 }
 
-#mainHomeDiv #statement0 p,
-#mainHomeDiv #statement1 p,
-#mainHomeDiv #statement2 p,
-#mainHomeDiv #statement3 p,
-#mainHomeDiv #statement4 p {
+#statement0 p,
+#statement1 p,
+#statement2 p,
+#statement3 p,
+#statement4 p {
   font-size: 2vw;
 }
 
@@ -166,14 +165,16 @@ main {
   text-align: center;
 }
 
-#mainHomeDiv #statement0 i,
-#mainHomeDiv #statement4 i {
+.cardIcon {
   font-size: 8rem;
+}
+
+#statement0 .cardIcon,
+#statement4 .cardIcon {
   color: hotpink;
 }
 
-#mainHomeDiv #statement3 i {
-  font-size: 8rem;
+#statement3 .cardIcon {
   color: white;
 }
 /* ----------------------------- */
@@ -305,7 +306,7 @@ main {
 @media only screen and (max-width: 1000px) {
   /* ============================================================ */
   /* Home Page */
-  #mainHomeDiv #statement1 p {
+  #statement1 p {
     font-size: 2rem;
   }
 
@@ -313,18 +314,18 @@ main {
     font-size: 3rem;
   }
 
-  #mainHomeDiv #statement0,
-  #mainHomeDiv #statement1,
-  #mainHomeDiv #statement2,
-  #mainHomeDiv #statement3,
-  #mainHomeDiv #statement4 {
+  #statement0,
+  #statement1,
+  #statement2,
+  #statement3,
+  #statement4 {
     min-width: 75vw;
   }
 
-  #mainHomeDiv #statement0 p,
-  #mainHomeDiv #statement2 p,
-  #mainHomeDiv #statement3 p,
-  #mainHomeDiv #statement4 p {
+  #statement0 p,
+  #statement2 p,
+  #statement3 p,
+  #statement4 p {
     font-size: 2rem;
   }
 
@@ -348,11 +349,11 @@ main {
 @media only screen and (max-width: 500px) {
   /* ============================================================ */
   /* Home Page */
-  #mainHomeDiv #statement0 p,
-  #mainHomeDiv #statement1 p,
-  #mainHomeDiv #statement2 p,
-  #mainHomeDiv #statement3 p,
-  #mainHomeDiv #statement4 p {
+  #statement0 p,
+  #statement1 p,
+  #statement2 p,
+  #statement3 p,
+  #statement4 p {
     font-size: 1.5rem;
   }
 
@@ -362,9 +363,7 @@ main {
     font-size: 2.25rem;
   }
 
-  #mainHomeDiv #statement0 i,
-  #mainHomeDiv #statement3 i,
-  #mainHomeDiv #statement4 i {
+  .cardIcon {
     font-size: 5rem;
   }
   /* ============================================================ */
