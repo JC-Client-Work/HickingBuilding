@@ -106,7 +106,8 @@ main {
 #statement1,
 #statement2,
 #statement3,
-#statement4 {
+#statement4,
+#statement5 {
   font-family: 'Zen Antique', serif;
   padding: 10px;
   margin: 50px 25px;
@@ -127,7 +128,8 @@ main {
 #statement1:hover,
 #statement2:hover,
 #statement3:hover,
-#statement4:hover {
+#statement4:hover,
+#statement5:hover {
   transform: scale(1.02);
 }
 
@@ -135,7 +137,8 @@ main {
 #statement1 p,
 #statement2 p,
 #statement3 p,
-#statement4 p {
+#statement4 p,
+#statement5 p {
   font-size: 2vw;
 }
 
@@ -174,7 +177,8 @@ main {
   color: hotpink;
 }
 
-#statement3 .cardIcon {
+#statement3 .cardIcon,
+#statement5 .cardIcon {
   color: white;
 }
 /* ----------------------------- */
@@ -318,14 +322,16 @@ main {
   #statement1,
   #statement2,
   #statement3,
-  #statement4 {
+  #statement4,
+  #statement5 {
     min-width: 75vw;
   }
 
   #statement0 p,
   #statement2 p,
   #statement3 p,
-  #statement4 p {
+  #statement4 p,
+  #statement5 p {
     font-size: 2rem;
   }
 
@@ -353,7 +359,8 @@ main {
   #statement1 p,
   #statement2 p,
   #statement3 p,
-  #statement4 p {
+  #statement4 p,
+  #statement5 p {
     font-size: 1.5rem;
   }
 
